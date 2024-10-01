@@ -70,32 +70,41 @@ main{
     margin-left: auto;
     margin-right: auto;
     padding: 10px 10px 10px 10px;
-    
 }
 footer{
     background-color: rgb(167, 167, 167);
     border-radius: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #byKanee{
     text-decoration: none;
 }
 #painel{
+    display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 .personas{
-    display: inline-flex;
+    display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 .persona1, .persona2, .persona3, .persona4, .persona5, .persona6, .persona7, .persona8, .persona9, .persona10, .persona11, .persona12, .persona13, .persona14, .persona15, .persona16, .persona17, .persona18, .persona19, .persona20, .persona21, .persona22, .persona23, .persona24, .persona25{
     display: inline-flex;
     text-align: center;
+    justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
 }
 .nameChar{
-    display: inline-flex;
+    display: flex;
     cursor: pointer;
+    margin: 0px;
     font-weight: 600;
     font-size: 25px;
     text-align: center;
