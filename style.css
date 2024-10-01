@@ -87,6 +87,7 @@ footer{
     text-align: center;
     justify-content: center;
     flex-flow: row wrap;
+    margin: 30px 10px;
 }
 .personas{
     display: flex;
@@ -100,6 +101,11 @@ footer{
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.persona1:hover, .persona2:hover, .persona3:hover, .persona4:hover, .persona5:hover, .persona6:hover, .persona7:hover, .persona8:hover, .persona9:hover, .persona10:hover, .persona11:hover, .persona12:hover, .persona13:hover, .persona14:hover, .persona15:hover, .persona16:hover, .persona17:hover, .persona18:hover, .persona19:hover, .persona20:hover, .persona21:hover, .persona22:hover, .persona23:hover, .persona24:hover, .persona25:hover{
+transform: scale(1.1);
 }
 .nameChar{
     display: flex;
